@@ -72,7 +72,7 @@ app.config(['$routeProvider', function ($routeProvider) {
           }
         }]
       }
-    });
+    })
     .when('/content', {
       resolve : {
         'acl' : ['$q', 'AclService', function($q, AclService){
